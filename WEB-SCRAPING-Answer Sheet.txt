@@ -1,105 +1,0 @@
- Web Scraping Answer Sheet
-WORKSHEET – 1
-
-In Q1 to Q9, only one option is correct, choose the correct option:
-1. Which of the following extracts information from user generated content?
-A) Java script tagging		B) Web scraping
-C) A/B testing			D) MROCs
-
-Answer: B) Web Scraping
-
-2. Which of the following is not a web scraping library in python?
-A) selenium	B) Beautiful soup
-C) Requests	C) scrapy
-
-Answer: C) Scrapy
-
-3. Selenium tests 	?
-A) Browser based applications	B) DOS applications
-C) GUI applications			D) All of the above
-
-Answer: A) Browser based applications
-
-4. Task of crawling is performed by a complex software which is known as:
-A) Scraper	B) Crawler
-C) Boat	D) Spider
-
-Answer: B) Crawler
-
-5. Which of the following commands is used to access name of a tag in Beautiful Soup?
-A) tag.attrs	B) tag.name
-C) tag,id	C) tag[‘id’]
-
-Answer: B) tag.name
-
-6. Which of the following is the default parser in Beautiful Soup?
-A) html.parser	B) html5lib
-C) lxml		D) lxml-xml
-
-Answer: C) lxml
-
-7. In selenium the webdriver is used to?
-A) design a test using selenese
-B) test a web application on firefox only
-C) execute tests on HtmlUnit browser
-D) to download any content from a webpage
-       
-           Answer A) execute tests on HtmlUnit browser
-
-
-
-
-
-
-
-8. In selenium, driver.find_elements_by_xpath(‘given xpath’) returns:
-A) the first webelement associated with the ‘given xpath’
-B) the url of first webelement associated with the ‘given xpath’
-C) the list of all webelements associated with the ‘given xpath’
-D) all the attributes of the first webelement associated with the ‘given xpath’
-
-Answer C) the list of all webelements associated with the ‘given xpath’
-
-9. The script ‘window.scrollBy(0,a) scrolls the webpage by?
-A) ‘a’ number of horizontal spaces
-B) ‘a’ number of lines
-C) ‘a’ number of pixels horizontally
-D) ‘a’ number of pixels vertically
-
-        Answer C) ‘a’ number of pixels horizontally
-
-In Q10, more than one options are correct, choose all the correct options:
-10. Which of the following is(are) tags of HTML?
-A) <a>	B) <b>
-C) <image>	D) <href>
-
-              Answer: A) <a>     &      B) <b>
-
-Q10 to Q13 are subjective answer type questions, Answer them briefly.
-
-11. What is the main difference between a web scraper and a web crawler?
-
-Answer: Web scraping is primarily use to pull out (extract) the targeted data from the web pages whereas web crawling is doing indexing of a web page. Though web scraper can crawl to different pages but this is not their primary object.
-
-Web ScraperWeb CrawlerIt is doing extraction rather than scanning.Methodically scans the Internet for indexing and searching for information.It is navigating on specific web pages.It automatically navigate to non-specific web pages.It is extracting the specific data as per defined goal.Has Undefined goal
-
-12. What is ‘robots.txt’ file? What is the use of ‘robots.txt’ file?
-
-Answer: A robots.txt file tells search engine crawlers which pages or files the crawler can or can't request from your site. This is used mainly to avoid overloading your site with requests; it is not a mechanism for keeping a web page out of Google.
-
-robots.txt is used primarily to manage crawler traffic to your site, and usually to keep a page off Google, depending on the file type.
-
-It is not hiding web page from Google but it is hiding media and Resource file.
-It is managing crawl traffic, and also to prevent image, video, and audio files from appearing in Google search results. (Note that this won't prevent other pages or users from linking to your image/video/audio file.)
-You can use robots.txt to block resource files such as unimportant image, script, or style files,
-
-
-
-13. What are static and dynamic web pages?
-
-Static Web pagesDynamics Web PagesA static web page contains Web pages with fixed content. Each page is coded in HTML and displays the same information to every visitor. Static sites are the most basic type of website and are the easiest to create. Unlike dynamic websites, they do not require any complex Web programming or database design. A static site can be built by simply creating a few HTML pages and publishing them to a Web server.A dynamic web page, the Content of pages is different for different visitors. It takes more time to load than the static web page.
-
-At a basic level, a dynamic website can give the website owner the ability to simply update and add new content to the site. For example, news and events could be posted to the site through a simple browser interface. Dynamic features of a site are only limited by imagination. Some examples of dynamic website features could be: content management system, e-commerce system, bulletin / discussion boards, intranet or extranet facilities, ability for clients or users to upload documents, ability for administrators or users to create content or add information to a site (dynamic publishing).Easy to develop, Cheap to develop & host
-Much more functional website and easier to update
-Requires web development expertise to update site and its content.New content brings people back to the site and helps in the search engines
-Site not as useful for the user (not user-friendly)Can work as a system to allow staff or users to collaborate
